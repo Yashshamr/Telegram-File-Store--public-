@@ -14,7 +14,7 @@ CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1003753339420"))
 OWNER = os.environ.get("OWNER", "BlurpleOg")
 OWNER_ID = int(os.environ.get("OWNER_ID", "7537243058"))
 PORT = os.environ.get("PORT", "8001")
-DB_URI = os.environ.get("DATABASE_URL", "mongodb+srv://dubbingroup29_db_user:itsyashjha@immortaldata.ojaeaxj.mongodb.net/?retryWrites=true&w=majority")
+DB_URI = os.environ.get("DATABASE_URL", "mongodb+srv://kikal47099_db_user:eKw6JtEz1DPzNs9K@cluster0.eofoizh.mongodb.net/?appName=Cluster0")
 
 if not TG_BOT_TOKEN:
     logging.warning("TG_BOT_TOKEN is not set!")
