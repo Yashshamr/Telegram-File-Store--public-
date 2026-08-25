@@ -6,15 +6,15 @@ from dotenv import load_dotenv
 load_dotenv()
 from logging.handlers import RotatingFileHandler
 
-TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "")
-APP_ID = int(os.environ.get("APP_ID", "0"))
-API_HASH = os.environ.get("API_HASH", "")
+TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "8585655649:AAGUIgo26twjUNIfX4QuyZiJejfRFk9DIWk")
+APP_ID = int(os.environ.get("APP_ID", "31761013"))
+API_HASH = os.environ.get("API_HASH", "3d55d62014467b2a922c6c0d6d95deae")
 
-CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "0"))
-OWNER = os.environ.get("OWNER", "")
-OWNER_ID = int(os.environ.get("OWNER_ID", "0"))
+CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1003753339420"))
+OWNER = os.environ.get("OWNER", "BlurpleOg")
+OWNER_ID = int(os.environ.get("OWNER_ID", "7537243058"))
 PORT = os.environ.get("PORT", "8001")
-DB_URI = os.environ.get("DATABASE_URL", "")
+DB_URI = os.environ.get("DATABASE_URL", "mongodb+srv://dubbingroup29_db_user:itsyashjha@immortaldata.ojaeaxj.mongodb.net/?retryWrites=true&w=majority")
 
 if not TG_BOT_TOKEN:
     logging.warning("TG_BOT_TOKEN is not set!")
@@ -24,9 +24,9 @@ if not API_HASH:
     logging.warning("API_HASH is not set!")
 if not DB_URI:
     logging.warning("DATABASE_URL is not set!")
-DB_NAME = os.environ.get("DB_NAME", "Filestore")
+DB_NAME = os.environ.get("DB_NAME", "BlurpleOg Store Bot ")
 FSUB_LINK_EXPIRY = int(os.getenv("FSUB_LINK_EXPIRY", "10"))
-BAN_SUPPORT = os.environ.get("BAN_SUPPORT", "https://t.me/AniReal_Chat_Group_Asia")
+BAN_SUPPORT = os.environ.get("BAN_SUPPORT", "https://t.me/Subscriptionbuybot")
 TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "200"))
 START_PIC = os.environ.get("START_PIC", "https://graph.org/file/0591ce5558c3ec8fe7612-263292508134daf3e1.jpg")
 FORCE_PIC = os.environ.get("FORCE_PIC", "https://graph.org/file/fdc4357abfaba23255e98-24d1bbfa3888cdfcfe.jpg")
