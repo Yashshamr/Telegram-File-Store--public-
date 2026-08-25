@@ -24,7 +24,7 @@ if not API_HASH:
     logging.warning("API_HASH is not set!")
 if not DB_URI:
     logging.warning("DATABASE_URL is not set!")
-DB_NAME = os.environ.get("DB_NAME", "BlurpleOg Store Bot ")
+DB_NAME = os.environ.get("DB_NAME", "Cluster0")
 FSUB_LINK_EXPIRY = int(os.getenv("FSUB_LINK_EXPIRY", "10"))
 BAN_SUPPORT = os.environ.get("BAN_SUPPORT", "https://t.me/Subscriptionbuybot")
 TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "200"))
